@@ -1,0 +1,40 @@
+{
+  "name": "bankers-round",
+  "version": "1.0.6",
+  "description": "Bankers round function to reduce the accumulated error written in TS.",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest"
+  },
+  "keywords": [
+    "bankers",
+    "bank",
+    "Gaus",
+    "Gaussian",
+    "convergent",
+    "statistician",
+    "Dutch",
+    "odd–even",
+    "rounding",
+    "round",
+    "math",
+    "accumulate"
+  ],
+  "author": "Kresimir Troskot",
+  "license": "ISC",
+  "homepage": "https://github.com/kret13/bankers-round",
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "@types/node": "^12.11.1",
+    "cz-conventional-changelog": "^3.0.2",
+    "jest": "^24.9.0",
+    "typescript": "^3.6.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
