@@ -3,7 +3,7 @@ Bankers round function to reduce the accumulated error. Module written in TS.
 ## Installation
 
 	npm i bankers-round --save
-	yarn add bankers-round -D
+	yarn add bankers-round
 
 
 ## Using
